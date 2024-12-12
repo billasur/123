@@ -1,0 +1,45 @@
+
+body{
+  background-color: rgb(3, 93, 123);
+}
+
+.header{
+  margin-left: 500px
+}
+
+.input{
+  margin-left: 50px;
+}
+
+.input-text{
+  background-color: rgb(3, 93, 123);
+  color: white;
+  width: 500px;
+  height: 500px;
+}
+
+.output{
+  margin-right: 50px;
+}
+
+.output-text{
+  box-shadow: 10px 10px 5px rgb(30, 30, 30);
+  border-radius: 5px;
+  background-color: rgb(78, 76, 76);
+  width: 500px;
+  height: 500px;
+  color: black;
+}
+
+.flex{
+  display: flex;
+}
+
+.flex-space-between{
+  justify-content: space-between;
+}
+
+.text-color{
+  color:whitesmoke
+}
+
