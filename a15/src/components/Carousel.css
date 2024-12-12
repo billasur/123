@@ -1,0 +1,63 @@
+/* write your carousel css in this file */
+.img-slider {
+  width: 85%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.img-slider > img {
+  height: 90%;
+}
+
+.img-slider > h1 {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2%;
+  border-radius: 15px;
+  top: 30%;
+}
+.img-slider > h3 {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 2%;
+  border-radius: 15px;
+  top: 55%;
+}
+
+.right,
+.left {
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 10;
+  height: 90%;
+  font-size: 2rem;
+  padding: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.right {
+  position: absolute;
+  right: 7.5%;
+}
+
+.left {
+  position: absolute;
+  left: 7.5%;
+}
+
+.arrowover {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+}
